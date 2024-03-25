@@ -4,6 +4,9 @@
 4   Escáner (scanner)
 5   Escáner de codigo de barras
 6   Escáner de código QR (quick response code, código de respuesta rápida)
+
+
+
 7   Sensor de huella digital
 8   Camara web (webcam)
 9   Cámara digital
