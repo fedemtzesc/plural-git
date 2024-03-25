@@ -1,0 +1,27 @@
+La sintaxis del comando sed es:
+    's/regex/reemplazo/flags'
+donde:
+    s           es el parametro que indica que es una sustitucion
+    regex       es la expresion regular para hacr la busqueda de texto
+    reemplazo   es la cadena que reemplazara a l texto encontrado
+    flags       son banderas que indican modo de trabajo
+
+
+sed 5q     # Muestra solo la cantidad de lineas indicada
+sed -n '3,7 p'    # Muestra solo un rango de lineas
+sed '3d'     # Elimina la linea indicada    
+sed '3,7d'    # Elimina las linea indicada
+sed '3,7!d'    # Elimina las linea indicada
+sed 's/Ratón/raton/g'  # sustituye valor encontrado
+sed 's/Escáner/escaner/g' # Remplaza valor indicado
+sed '5 s/Escáner/escaner/g' # remplaza en la linea indicada
+sed '/8/ cPrueba'   # agrega valor en el texto indicado
+sed '/8/ !c --- Prueba'  # agrega valor donde no se encuentre el valor indicado
+sed '/8/ aPrueba'   # agrega valor en después del texto indicado
+sed '/8/ iPrueba'   # agrega valor en antes del texto indicado
+sed '$i Prueba'   # Añade una línea antes de la ultima línea
+sed '$a Prueba'   # Agrega una línea al final
+sed -n '1p'    # Muestra la primera linea
+sed -n '$p'    # Muestra la ultima linea
+sed '5,$d' (mayor que) resultado.txt # Asignar valor a un archivo
+sed -i '5,$d' test.txt  # Hacer el cambio permanente en un archivo
