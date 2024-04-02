@@ -1,0 +1,4 @@
+1. hacer commit sin pasar por el staging area un archivo que se volvio a modificar estando en staging:
+	git commit -a -m "mensaje del commit..."
+
+2. 
