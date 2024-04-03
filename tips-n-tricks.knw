@@ -16,3 +16,12 @@
 
 5. Para ver en modo grafico nuestro log de commits:
 	git log --graph
+
+6. Para limitar el numero de commits que queremos ver en nuestor log:
+	* Sintaxis:
+		git log -n		donde: n es la cantidad de commits que queremos ver
+
+7. Si queremos ver el log en un formato mas sencillo de una linea:
+	git log --oneline
+
+8. 
