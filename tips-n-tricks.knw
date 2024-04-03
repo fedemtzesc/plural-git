@@ -5,7 +5,11 @@
 	git status -s
 	git status --short
 
-3. Como decirle a git diff que no se tienen archivos renombrados
-	git diff --staged --no-renames
+3. Como revisar los cambios hechos en un archivo:
+	* Para ver cambios en archivos que estan aun en el area de trabajo:
+		git diff
+	* Para ver cambios en archivos que estan en el staging area:
+		git diff --staged
 
-4. 
+4. Como decirle a git diff que no se tienen archivos renombrados
+	git diff --staged --no-renames
