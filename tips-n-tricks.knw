@@ -13,3 +13,5 @@
 
 4. Como decirle a git diff que no se tienen archivos renombrados
 	git diff --staged --no-renames
+
+5. 
