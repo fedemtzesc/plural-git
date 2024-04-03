@@ -24,4 +24,16 @@
 7. Si queremos ver el log en un formato mas sencillo de una linea:
 	git log --oneline
 
-8. 
+8. Si queremos mas detalle en nuestros logs usamos:
+	git log --stat
+
+9. Si queremos ver aun mas detalle de los cambios hechos usamos:
+	git log --patch
+
+10. Quitarle el seguimiento a un archivo:
+	* Si queremos eliminar el archivo fisicamente del proyecto:
+		git rm nombre_del_archivo
+	* Si queremos conservar el archivo 
+		git rm --cached nombre_del_archivo
+
+11. 
