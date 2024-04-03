@@ -36,4 +36,8 @@
 	* Si queremos conservar el archivo 
 		git rm --cached nombre_del_archivo
 
-11. 
+11. Reglas de las ramas:
+	a) No existen ramas hijas de otras ramas
+	b) Para hacer merge, te tienes que posicionar en la rama que recibira
+	   los cambios de la otra rama
+	
