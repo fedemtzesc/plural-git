@@ -65,4 +65,4 @@
 
 	(*) La opcion mixed es la de default si no se especifica el modo.
 
-15. El comando git fetch sirve para traer informnacion del repositorio remoto
+15. El comando git fetch sirve para traer informacion del repositorio remoto
