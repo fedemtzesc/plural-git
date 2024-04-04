@@ -58,11 +58,11 @@
 	Donde:
 		--modo		Es el modo en el que se quiere manejar el reset, y
 		hash 		Es el numero de rama desde la cual se requiere hacer el reset
-		
+
 	a) git reset --soft		Pasa los ultimos cambios del repositorio al area de stage.
 	b) git reset --mixed	Pasa los ultimos cambios del repositorio a el area de trabajo (*).
 	c) git reset --hard 	Elimina totalmente los ultimos cambios pasados al repositorio.
 
 	(*) La opcion mixed es la de default si no se especifica el modo.
 
-15. 
+15. El comando git fetch sirve para traer informnacion del repositorio remoto
