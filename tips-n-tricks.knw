@@ -64,4 +64,5 @@
 	c) git reset --hard 	Elimina totalmente los ultimos cambios pasados al repositorio.
 
 	(*) La opcion mixed es la de default si no se especifica el modo.
+
 15. 
