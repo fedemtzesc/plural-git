@@ -36,8 +36,32 @@
 	* Si queremos conservar el archivo 
 		git rm --cached nombre_del_archivo
 
-11. Reglas de las ramas:
+11. Si queremos reservar los archivos (sin seguimiento) y que no 
+	aparezcan en nuestro proyecto ejecutamos lo siguiente:
+	1) Primero nos aseguramos que haya archivos untracked
+	2) Despues los agregamos al stage con git add 
+	3) Finalmente ejecutamos el comando git stash
+
+12. Si queremos ver a donde se fueron esos archivos reservados con
+	stash usamos los siguientes comandos:
+	* git stash list
+	* git stash show
+
+13. Reglas de las ramas:
 	a) No existen ramas hijas de otras ramas
 	b) Para hacer merge, te tienes que posicionar en la rama que recibira
 	   los cambios de la otra rama
 	
+14. Tipos de "git reset" para quitar cambios recien pasados al repositorio:
+	Sintaxis:
+		git reset --modo hash	
+	Donde:
+		--modo		Es el modo en el que se quiere manejar el reset, y
+		hash 		Es el numero de rama desde la cual se requiere hacer el reset
+		
+	a) git reset --soft		Pasa los ultimos cambios del repositorio al area de stage.
+	b) git reset --mixed	Pasa los ultimos cambios del repositorio a el area de trabajo (*).
+	c) git reset --hard 	Elimina totalmente los ultimos cambios pasados al repositorio.
+
+	(*) La opcion mixed es la de default si no se especifica el modo.
+15. 
